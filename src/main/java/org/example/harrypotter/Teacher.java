@@ -15,4 +15,13 @@ public class Teacher extends Character {
     public void setSubject(String subject) {
         this.subject = subject;
     }
+
+    public void teachClass() {
+        System.out.println(getName() + " teaches " + subject);
+    }
+
+    @Override
+    public void castSpell(String spell) {
+        System.out.println(getName() + " casts " + spell);
+    }
 }
