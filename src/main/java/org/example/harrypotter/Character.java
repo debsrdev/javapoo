@@ -1,6 +1,6 @@
 package org.example.harrypotter;
 
-public class Character {
+public abstract class Character implements SpellCaster {
     private String name;
     private String house;
     private int age;
