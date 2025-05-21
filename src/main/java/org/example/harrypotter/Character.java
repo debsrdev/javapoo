@@ -14,9 +14,9 @@ public abstract class Character implements SpellCaster {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+//    public void setName(String name) {
+//        this.name = name;
+//    }
 
     public String getHouse() {
         return house;
@@ -33,4 +33,5 @@ public abstract class Character implements SpellCaster {
     public void setAge(int age) {
         this.age = age;
     }
+    public abstract void introduce();
 }
