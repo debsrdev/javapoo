@@ -10,6 +10,8 @@ public class Main {
 
         System.out.println(harryPotter.getName());
 
+        harryPotter.introduce();
+
         harryPotter.castSpell("Expelliarmus");
         harryPotter.attendClass("Defense against the dark arts");
 
@@ -23,6 +25,5 @@ public class Main {
         severusSnape.listSpells();
 
         harryPotter.castSpell("Lumos");
-
     }
 }
